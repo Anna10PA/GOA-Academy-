@@ -327,4 +327,6 @@ left(90)
 forward(49)
 end_fill()
 
+exitonclick()
+
 #finish
