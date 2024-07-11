@@ -352,11 +352,5 @@ forward(70)
 left(90)
 forward(49)
 end_fill()
-#GOA
-penup()
-goto(-400, 400)
-pendown()
-forward(100)
-exitonclick()
 
 #finish
