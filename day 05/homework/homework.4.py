@@ -1,8 +1,34 @@
 # 6) უნდა დახაზოთ სასახლე turtle ის გამოყენებით და თქვენი გემოვნებით გააფორმოთ
 
-from turtle import* 
-speed(100)
+from turtle import*
+speed(20000)
+#Bg and moon 
+bgcolor("black")
+penup()
+goto(0, 300)
+pendown()
+begin_fill()
+circle(50)
+color("gold")
+end_fill()
+
+# 
+penup()
+goto(-1000, -100)
+pendown()
+begin_fill()
+color("green")
+forward(2000)
+right(90)
+forward(300)
+right(90)
+forward(2000)
+right(90)
+forward(300)
+end_fill()
+
 #start square
+right(90)
 begin_fill()
 width(3)
 penup()
@@ -326,7 +352,11 @@ forward(70)
 left(90)
 forward(49)
 end_fill()
-
+#GOA
+penup()
+goto(-400, 400)
+pendown()
+forward(100)
 exitonclick()
 
 #finish
